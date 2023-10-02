@@ -19,10 +19,16 @@ In the else statement's code block, update color to "dimGray".
 Then update image to "/img/ninja-icon.png".
 Finally, update label to "Ninja Mode".
 
+Print the label variable in the console, at the end of your code.
+
+Change the value of the mode variable to "ninja" by either 
+updating it before the conditional statement or 
+replacing the value in the variable initialization.
+
 */
 
 
-let mode = "light";  //dark 
+let mode = "ninja";  //dark, light, ninja 
 let color = "ghostWhite"; // darkSlateBlue
 let image = "/img/light-icon.png"; // /img/light-icon.png
 let label = "Light Mode"; // Dark Mode
@@ -37,3 +43,5 @@ if (mode === "dark") {
     image = "/img/ninja-icon.png"; 
     label = "Ninja Mode"; 
 }
+
+console.log(label); 
