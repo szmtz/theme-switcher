@@ -5,6 +5,8 @@ image stores the path to the image that'll display for the selected mode.
 label informs the user what mode they're currently using.
 
 Assemble an if statement that checks if the mode variable is set to "dark". Leave its code block empty for now.
+Add an else if statement that runs when mode is equal to "light".
+
 
 */
 
@@ -16,4 +18,7 @@ let label = "Light Mode";
 
 if (mode === "dark") {
 
+} else if (mode === "light") {
+
+    
 }
