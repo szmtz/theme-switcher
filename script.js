@@ -11,14 +11,21 @@ When mode is "dark", color should update to "darkSlateBlue" in the code block.
 Then update image to "/img/dark-icon.png".
 Finally, update label to "Dark Mode".
 
+When mode is "light", color should update to "ghostWhite".
+Then update image to "/img/light-icon.png".
+Finally, update label to "Light Mode".
+
+In the else statement's code block, update color to "dimGray".
+Then update image to "/img/ninja-icon.png".
+Finally, update label to "Ninja Mode".
 
 */
 
 
-let mode = "dark";
-let color = "darkSlateBlue";
-let image = "/img/dark-icon.png";
-let label = "Dark Mode";
+let mode = "light";  //dark 
+let color = "ghostWhite"; // darkSlateBlue
+let image = "/img/light-icon.png"; // /img/light-icon.png
+let label = "Light Mode"; // Dark Mode
 
 if (mode === "dark") {
    
@@ -26,5 +33,7 @@ if (mode === "dark") {
    
 
 } else {
-
+    color = "dimGray"; 
+    image = "/img/ninja-icon.png"; 
+    label = "Ninja Mode"; 
 }
