@@ -6,19 +6,25 @@ label informs the user what mode they're currently using.
 
 Assemble an if statement that checks if the mode variable is set to "dark". Leave its code block empty for now.
 Add an else if statement that runs when mode is equal to "light".
+Add an empty else statement that runs when mode isn't "light" or "dark".
+When mode is "dark", color should update to "darkSlateBlue" in the code block.
+Then update image to "/img/dark-icon.png".
+Finally, update label to "Dark Mode".
 
 
 */
 
 
-let mode = "light";
-let color = "ghostWhite";
-let image = "/img/light-icon.png";
-let label = "Light Mode";
+let mode = "dark";
+let color = "darkSlateBlue";
+let image = "/img/dark-icon.png";
+let label = "Dark Mode";
 
 if (mode === "dark") {
-
+   
 } else if (mode === "light") {
+   
 
-    
+} else {
+
 }
